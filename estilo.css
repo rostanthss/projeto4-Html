@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    color: white;
+    background: #000000;
+    font-size: 20px;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #BD2A2E;
+}
+
+input[type='submit']{
+    width: 70px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 50px;
+    background: #000000;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+body.inicio #menuPrincipal a#inicio,
+body.economia #menuPrincipal a#economia,
+body.seguranca #menuPrincipal a#seguranca,
+body.saude #menuPrincipal a#saude,
+body.politica #menuPrincipal a#politica,
+body.esporte #menuPrincipal a#esporte{    
+    cursor: text;
+    background: #f7f6f6;
+    color: black;
+    
+
+}
+#cabecalho{
+    height: 230px;
+    background: url('imagens/fundopreto.png');
+}
+
+#menuPrincipal{
+    width: 53%;
+    height: 40px;
+    border-radius: 1px;
+    margin: 0 auto;
+    position: relative;
+    top: 130px;
+    
+}
+
+#menuPrincipal ul{
+    list-style: none;
+    
+}
+
+#menuPrincipal li{
+    float: left;
+    border-right: 1px solid #962024;
+    background: #BD2A2E;
+    
+}
+
+#menuPrincipal li a{
+    text-decoration: none;
+    color: white;
+    line-height: 2em;
+    padding: 0px 25px;
+    font-size: 19px;
+    display: block;
+    
+}
+
+#menuPrincipal li a:hover{
+    background: #ffffff;
+    color: black;
+}
+
+
+
+#posicaoLogo{
+    position: absolute;
+    left: 43%;
+    
+}
+
+#conteudo{
+    width: 60%;
+    
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+#areaEsquerda{
+    width: 28%;
+    float: left;
+    
+
+}
+
+#entrevistas{
+    padding: 5px;
+}
+
+#entrevistas ul{
+    list-style: none;
+    
+}
+
+#entrevistas li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+#entrevistas li a:hover{
+    color: #BD2A2E;
+    margin-left: 10px;
+}
+
+#areaDireita{
+    width: 70%;
+    float: right;
+}
+
+#news{
+    font-size: 15px;
+    padding: 5px;
+}
+
+#news li{
+    list-style: none;
+    margin: 5px;
+}
+
+#news li:hover {
+    background: #e9e8e8;
+    cursor: pointer;
+}
+
+#news li a{
+    color: black;
+}
+
+.imagemNews{
+    width: 100px;
+    float: left;
+    margin-right: 4px;
+}
+
+#rodape{
+    line-height: 5em;
+    text-align: center;
+    background: #000000;
+    color: white;
+    height: 90px;
+}
+
+.noticias{
+     
+    width: 48%;
+    
+    float: left;
+    margin: 3px;
+}
+
+.clear{
+    clear: both;
+}
+
+.alinhaimagens{
+    margin: 5px 12px;
+    width: 90%;
+}
+
+.alinhatexto{
+    text-align: justify;
+    margin: 5px 12px;
+}
